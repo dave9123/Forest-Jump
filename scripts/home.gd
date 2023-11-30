@@ -5,7 +5,16 @@ extends Control
 func _ready():
 	pass # Replace with function body.
 
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	pass
+
+
+func _on_start_button_pressed():
+	pass
+
+func _on_settings_button_pressed():
+	pass
+
+func _on_credits_button_pressed():
 	pass

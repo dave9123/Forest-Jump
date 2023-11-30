@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://3dd2yy2ys2gc"]
+[gd_scene load_steps=2 format=3 uid="uid://crgdxs2v1e67b"]
 
 [ext_resource type="Script" path="res://scripts/home.gd" id="1_rreuw"]
 
@@ -65,3 +65,7 @@ offset_bottom = 51.5
 grow_horizontal = 2
 grow_vertical = 2
 text = "Credits"
+
+[connection signal="pressed" from="Start_Button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="Settings_Button" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="Credits_Button" to="." method="_on_credits_button_pressed"]
