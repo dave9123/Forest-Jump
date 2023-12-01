@@ -4,9 +4,10 @@ var _settings := {fullscreen = false, vsync = true, fps_limit = 30}
 
 func _ready():
 	print("Ready!")
-	var savefile = FileAccess.open("users://settings.dat",FileAccess.READ)
+	var savefile = FileAccess.open("users://settings.dat",FileAccess.WRITE_READ)
 	if not FileAccess.file_exists("users://settings.dat"):
 		print("Settings file not found, using default settings.")
+		
 	elif FileAccess.file_exists("users://settings.dat"):
 		print("Settings file exists, using it.")
 		_settings = str_to_var(savefile.get_as_text())
