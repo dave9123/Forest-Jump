@@ -23,6 +23,24 @@ grow_horizontal = 2
 text = "Credits"
 
 [node name="CreditsList_CreditsScreen" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -11.5
+offset_right = 20.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Made with Godot Engine"
+
+[node name="ReturnButton_CreditsScreen" type="Button" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Return"
+
+[connection signal="pressed" from="ReturnButton_CreditsScreen" to="." method="_on_return_button_credits_screen_pressed"]
