@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_rreuw")
 
-[node name="Title" type="Label" parent="."]
+[node name="GameTitle_HomeScreen" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 10
 anchor_right = 1.0
@@ -21,7 +21,7 @@ text = "Artistry Odyssey Game"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Start_Button" type="Button" parent="."]
+[node name="StartButton_HomeScreen" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -36,7 +36,7 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Start"
 
-[node name="Settings_Button" type="Button" parent="."]
+[node name="SettingsButton_HomeScreen" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -51,7 +51,7 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Settings"
 
-[node name="Credits_Button" type="Button" parent="."]
+[node name="CreditsButton_HomeScreen" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -66,6 +66,6 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Credits"
 
-[connection signal="pressed" from="Start_Button" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="Settings_Button" to="." method="_on_settings_button_pressed"]
-[connection signal="pressed" from="Credits_Button" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="StartButton_HomeScreen" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="SettingsButton_HomeScreen" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="CreditsButton_HomeScreen" to="." method="_on_credits_button_pressed"]
