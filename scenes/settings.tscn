@@ -76,3 +76,5 @@ grow_horizontal = 2
 grow_vertical = 2
 
 [connection signal="pressed" from="ReturnButton_SettingsScreen" to="." method="_on_return_button_settings_screen_pressed"]
+[connection signal="toggled" from="VSyncCheckbox_SettingsScreen" to="." method="_on_v_sync_checkbox_settings_screen_toggled"]
+[connection signal="toggled" from="FullScreenCheckbox_SettingsScreen" to="." method="_on_full_screen_checkbox_settings_screen_toggled"]
