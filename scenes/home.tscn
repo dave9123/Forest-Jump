@@ -66,6 +66,6 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Credits"
 
-[connection signal="pressed" from="StartButton_HomeScreen" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="SettingsButton_HomeScreen" to="." method="_on_settings_button_pressed"]
-[connection signal="pressed" from="CreditsButton_HomeScreen" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="StartButton_HomeScreen" to="." method="_on_start_button_home_screen_pressed"]
+[connection signal="pressed" from="SettingsButton_HomeScreen" to="." method="_on_settings_button_home_screen_pressed"]
+[connection signal="pressed" from="CreditsButton_HomeScreen" to="." method="_on_credits_button_home_screen_pressed"]
