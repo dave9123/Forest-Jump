@@ -19,7 +19,7 @@ func save_settings():
 	savefile.store_string(var_to_str(_settings))
 
 func _process(_delta):
-	pass
+	$FPSCounter_SettingsScreen.text = Engine.get_frames_per_second()
 
 func _on_return_button_settings_screen_pressed():
 	get_tree().change_scene_to_file("res://scenes/home.tscn")

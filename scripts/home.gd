@@ -1,7 +1,10 @@
 extends Control
 
 func _ready():
-	pass
+	var savefile = FileAccess.open("users://settings.dat",FileAccess.WRITE_READ)
+	var _settings = {fullscreen = false, vsync = true, fps_limit = 30}
+	savefile.store_string(_settings)
+	savefile.close()
 
 func _process(_delta):
 	$FPSCounter_HomeScreen.text = str(Engine.get_frames_per_second())
