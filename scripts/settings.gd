@@ -11,15 +11,15 @@ func _ready():
 	elif FileAccess.file_exists("users://settings.dat"):
 		print("Settings file exists, using it.")
 		_settings = str_to_var(savefile.get_as_text())
-		assert(typeof(_settings) == TYPE_DICTIONARY)
+		typeof(_settings) == TYPE_DICTIONARY
 
 func save_settings():
 	print("save_settings function called")
 	var savefile = FileAccess.open("users://settings.dat", FileAccess.WRITE)
-	savefile.store_string(var_to_str(_settings))
+	savefile.store_var(_settings)
 
 func _process(_delta):
-	$FPSCounter_SettingsScreen.text = Engine.get_frames_per_second()
+	$FPSCounter_SettingsScreen.text = str(Engine.get_frames_per_second())
 
 func _on_return_button_settings_screen_pressed():
 	get_tree().change_scene_to_file("res://scenes/home.tscn")

@@ -1,10 +1,16 @@
 extends Control
-
+var _settings = {}
 func _ready():
-	var savefile = FileAccess.open("users://settings.dat",FileAccess.WRITE_READ)
-	var _settings = {fullscreen = false, vsync = true, fps_limit = 30}
-	savefile.store_string(_settings)
-	savefile.close()
+	if FileAccess.file_exists("user://settings.dat"):
+		print("[!] Settings file doesn't exists.")
+		print("[/] Setting settings file to default configuration...")
+		_settings = {fullscreen = false, vsync = true, fps_limit = 30}
+		var settingsfile = FileAccess.open("user://settings.dat",FileAccess.WRITE_READ)
+		settingsfile.store_var(_settings)
+		settingsfile.close()
+	elif not FileAccess.file_exists("user://settings.dat"):
+		print("[/] Settings file exists.")
+
 
 func _process(_delta):
 	$FPSCounter_HomeScreen.text = str(Engine.get_frames_per_second())
