@@ -21,6 +21,10 @@ window/size/viewport_width=1024
 window/size/viewport_height=576
 window/size/resizable=false
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/nklbdev.aseprite_importers/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
