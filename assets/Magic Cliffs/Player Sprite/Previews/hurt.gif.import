@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://dw654l7oouocn"
+path="res://.godot/imported/hurt.gif-01316942e6494e3365e6b7cac2fe336a.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/hurt.gif"
+dest_files=["res://.godot/imported/hurt.gif-01316942e6494e3365e6b7cac2fe336a.tres"]
+
+[params]
+
+frames_per_second=30

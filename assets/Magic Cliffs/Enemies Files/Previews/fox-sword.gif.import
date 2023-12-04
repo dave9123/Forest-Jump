@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://0oyd1tq8hu4t"
+path="res://.godot/imported/fox-sword.gif-b59c757ec8a8338ababfa498527a4110.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Enemies Files/Previews/fox-sword.gif"
+dest_files=["res://.godot/imported/fox-sword.gif-b59c757ec8a8338ababfa498527a4110.tres"]
+
+[params]
+
+frames_per_second=30

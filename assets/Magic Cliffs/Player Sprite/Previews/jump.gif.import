@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cqhuq2oljscyd"
+path="res://.godot/imported/jump.gif-2919b2497650ff6fb1691bc18e4638f7.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/jump.gif"
+dest_files=["res://.godot/imported/jump.gif-2919b2497650ff6fb1691bc18e4638f7.tres"]
+
+[params]
+
+frames_per_second=30

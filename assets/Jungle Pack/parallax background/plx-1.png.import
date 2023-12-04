@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ibff5nvog1dy"
-path="res://.godot/imported/plx-1.png-f563f1795a597902ed4cc736d974438a.ctex"
+path="res://.godot/imported/plx-1.png-9ec66a801fe5ddacefad82d79b611b04.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/parallax background/plx-1.png"
-dest_files=["res://.godot/imported/plx-1.png-f563f1795a597902ed4cc736d974438a.ctex"]
+source_file="res://assets/Jungle Pack/parallax background/plx-1.png"
+dest_files=["res://.godot/imported/plx-1.png-9ec66a801fe5ddacefad82d79b611b04.ctex"]
 
 [params]
 

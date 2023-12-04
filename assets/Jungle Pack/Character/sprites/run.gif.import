@@ -3,12 +3,12 @@
 importer="import_gif_to_sprite_frames"
 type="SpriteFrames"
 uid="uid://xbo87obcn2vj"
-path="res://.godot/imported/run.gif-69c5551229fa39acbfd9743464a36538.tres"
+path="res://.godot/imported/run.gif-da7ba92e5b08ebadca616abed0ce86d9.tres"
 
 [deps]
 
-source_file="res://assets/Character/sprites/run.gif"
-dest_files=["res://.godot/imported/run.gif-69c5551229fa39acbfd9743464a36538.tres"]
+source_file="res://assets/Jungle Pack/Character/sprites/run.gif"
+dest_files=["res://.godot/imported/run.gif-da7ba92e5b08ebadca616abed0ce86d9.tres"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="import_gif_to_sprite_frames"
 type="SpriteFrames"
 uid="uid://cd2buah056x3d"
-path="res://.godot/imported/ledge grab.gif-86f25c042cb69fa128cb484895dfe30e.tres"
+path="res://.godot/imported/ledge grab.gif-53f8e432cf10b46a4044fc9ea7e539f0.tres"
 
 [deps]
 
-source_file="res://assets/Character/sprites/ledge grab.gif"
-dest_files=["res://.godot/imported/ledge grab.gif-86f25c042cb69fa128cb484895dfe30e.tres"]
+source_file="res://assets/Jungle Pack/Character/sprites/ledge grab.gif"
+dest_files=["res://.godot/imported/ledge grab.gif-53f8e432cf10b46a4044fc9ea7e539f0.tres"]
 
 [params]
 

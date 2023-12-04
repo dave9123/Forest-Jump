@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://dbf5aobohdavx"
+path="res://.godot/imported/run.gif-d6fd2747256f6f481a2c1d014a715ae3.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/run.gif"
+dest_files=["res://.godot/imported/run.gif-d6fd2747256f6f481a2c1d014a715ae3.tres"]
+
+[params]
+
+frames_per_second=30

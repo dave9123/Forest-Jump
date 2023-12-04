@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://wjfafv8tw4y8"
+path="res://.godot/imported/attack.gif-e869a5be89d453a5cb07dff2cd77d6dc.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/attack.gif"
+dest_files=["res://.godot/imported/attack.gif-e869a5be89d453a5cb07dff2cd77d6dc.tres"]
+
+[params]
+
+frames_per_second=30

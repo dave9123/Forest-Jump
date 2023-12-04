@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://or0jlskfivsr"
+path="res://.godot/imported/idle.gif-66597b3d8c603904fd57d86b0a7c646f.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/idle.gif"
+dest_files=["res://.godot/imported/idle.gif-66597b3d8c603904fd57d86b0a7c646f.tres"]
+
+[params]
+
+frames_per_second=30

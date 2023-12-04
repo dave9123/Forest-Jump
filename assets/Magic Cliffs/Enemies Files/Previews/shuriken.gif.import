@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bmxuceobf35ud"
+path="res://.godot/imported/shuriken.gif-d86b966e03b3b885802f821492e09b3a.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Enemies Files/Previews/shuriken.gif"
+dest_files=["res://.godot/imported/shuriken.gif-d86b966e03b3b885802f821492e09b3a.tres"]
+
+[params]
+
+frames_per_second=30

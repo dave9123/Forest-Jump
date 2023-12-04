@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://ct5bngxyd2kxw"
+path="res://.godot/imported/fall.gif-f55037b55469dfa9dc8ae19537da01e9.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Player Sprite/Previews/fall.gif"
+dest_files=["res://.godot/imported/fall.gif-f55037b55469dfa9dc8ae19537da01e9.tres"]
+
+[params]
+
+frames_per_second=30

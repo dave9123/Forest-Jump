@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cx7jefsaivp3o"
+path="res://.godot/imported/fox.gif-49e103aaa72398dde0e76121c50a258e.tres"
+
+[deps]
+
+source_file="res://assets/Magic Cliffs/Enemies Files/Previews/fox.gif"
+dest_files=["res://.godot/imported/fox.gif-49e103aaa72398dde0e76121c50a258e.tres"]
+
+[params]
+
+frames_per_second=30
