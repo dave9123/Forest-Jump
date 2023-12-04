@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://12fe26yy1n11"
+path="res://.godot/imported/run outline.gif-434c6ad817f07af50ab5f5bcd7301a37.tres"
+
+[deps]
+
+source_file="res://assets/Chacter with outline/sprites/run outline.gif"
+dest_files=["res://.godot/imported/run outline.gif-434c6ad817f07af50ab5f5bcd7301a37.tres"]
+
+[params]
+
+frames_per_second=30

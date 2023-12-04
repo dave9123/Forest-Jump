@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://bfvilrfpvgor0"
+path="res://.godot/imported/mid air.gif-f928f562c63b4a74ff5a2cef2e2b968a.tres"
+
+[deps]
+
+source_file="res://assets/Character/sprites/mid air.gif"
+dest_files=["res://.godot/imported/mid air.gif-f928f562c63b4a74ff5a2cef2e2b968a.tres"]
+
+[params]
+
+frames_per_second=30

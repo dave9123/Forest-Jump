@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d27jy82j16vhc"
+path="res://.godot/imported/idle outline.gif-756b3616c9a264011e0ed3b5ecd5cf7c.tres"
+
+[deps]
+
+source_file="res://assets/Chacter with outline/sprites/idle outline.gif"
+dest_files=["res://.godot/imported/idle outline.gif-756b3616c9a264011e0ed3b5ecd5cf7c.tres"]
+
+[params]
+
+frames_per_second=30

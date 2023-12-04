@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cd2buah056x3d"
+path="res://.godot/imported/ledge grab.gif-86f25c042cb69fa128cb484895dfe30e.tres"
+
+[deps]
+
+source_file="res://assets/Character/sprites/ledge grab.gif"
+dest_files=["res://.godot/imported/ledge grab.gif-86f25c042cb69fa128cb484895dfe30e.tres"]
+
+[params]
+
+frames_per_second=30

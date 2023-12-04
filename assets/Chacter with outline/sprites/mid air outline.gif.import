@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://qqgsywwtkb5m"
+path="res://.godot/imported/mid air outline.gif-313afc90c3bf15d88d364c07ff9e1383.tres"
+
+[deps]
+
+source_file="res://assets/Chacter with outline/sprites/mid air outline.gif"
+dest_files=["res://.godot/imported/mid air outline.gif-313afc90c3bf15d88d364c07ff9e1383.tres"]
+
+[params]
+
+frames_per_second=30

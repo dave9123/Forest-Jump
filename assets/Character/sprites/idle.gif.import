@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://cnarocbynehd6"
+path="res://.godot/imported/idle.gif-12f2f06ee414d94273f8b0ba6a94ad72.tres"
+
+[deps]
+
+source_file="res://assets/Character/sprites/idle.gif"
+dest_files=["res://.godot/imported/idle.gif-12f2f06ee414d94273f8b0ba6a94ad72.tres"]
+
+[params]
+
+frames_per_second=30

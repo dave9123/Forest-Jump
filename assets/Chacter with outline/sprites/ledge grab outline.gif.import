@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://ctdovdfkcdsoq"
+path="res://.godot/imported/ledge grab outline.gif-04d11ec00afc270ab6e5faaa340e6930.tres"
+
+[deps]
+
+source_file="res://assets/Chacter with outline/sprites/ledge grab outline.gif"
+dest_files=["res://.godot/imported/ledge grab outline.gif-04d11ec00afc270ab6e5faaa340e6930.tres"]
+
+[params]
+
+frames_per_second=30
