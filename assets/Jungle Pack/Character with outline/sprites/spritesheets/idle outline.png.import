@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crlvvqgptfrmh"
-path="res://.godot/imported/jump outline.png-adf3efcfb7fd98f1a72cd45a4800e899.ctex"
+uid="uid://1kks53vsg1l5"
+path="res://.godot/imported/idle outline.png-b3dd994314a294fcadf675e9066249b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Jungle Pack/Chacter with outline/sprites/jump outline.png"
-dest_files=["res://.godot/imported/jump outline.png-adf3efcfb7fd98f1a72cd45a4800e899.ctex"]
+source_file="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/idle outline.png"
+dest_files=["res://.godot/imported/idle outline.png-b3dd994314a294fcadf675e9066249b1.ctex"]
 
 [params]
 

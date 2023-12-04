@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://pgr25pttob53"
-path="res://.godot/imported/landing outline.png-d37e15a8061dbdafbb344c253b44e81b.ctex"
+uid="uid://78u3e8667rxy"
+path="res://.godot/imported/run outline.png-594a784fcd5c114f24a1699468edb611.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Jungle Pack/Chacter with outline/sprites/landing outline.png"
-dest_files=["res://.godot/imported/landing outline.png-d37e15a8061dbdafbb344c253b44e81b.ctex"]
+source_file="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/run outline.png"
+dest_files=["res://.godot/imported/run outline.png-594a784fcd5c114f24a1699468edb611.ctex"]
 
 [params]
 

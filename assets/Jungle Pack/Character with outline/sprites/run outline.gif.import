@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://12fe26yy1n11"
+path="res://.godot/imported/run outline.gif-c30b724f710498b7c75c0c58b541285e.tres"
+
+[deps]
+
+source_file="res://assets/Jungle Pack/Character with outline/sprites/run outline.gif"
+dest_files=["res://.godot/imported/run outline.gif-c30b724f710498b7c75c0c58b541285e.tres"]
+
+[params]
+
+frames_per_second=30

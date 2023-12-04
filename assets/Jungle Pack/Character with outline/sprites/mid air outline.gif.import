@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://qqgsywwtkb5m"
+path="res://.godot/imported/mid air outline.gif-3563450af8916e28985058fe4d9cde90.tres"
+
+[deps]
+
+source_file="res://assets/Jungle Pack/Character with outline/sprites/mid air outline.gif"
+dest_files=["res://.godot/imported/mid air outline.gif-3563450af8916e28985058fe4d9cde90.tres"]
+
+[params]
+
+frames_per_second=30

@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://ctdovdfkcdsoq"
+path="res://.godot/imported/ledge grab outline.gif-580d4ba6e60087809ed6331e44fc8362.tres"
+
+[deps]
+
+source_file="res://assets/Jungle Pack/Character with outline/sprites/ledge grab outline.gif"
+dest_files=["res://.godot/imported/ledge grab outline.gif-580d4ba6e60087809ed6331e44fc8362.tres"]
+
+[params]
+
+frames_per_second=30

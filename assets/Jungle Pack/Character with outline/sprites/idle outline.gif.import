@@ -1,0 +1,15 @@
+[remap]
+
+importer="import_gif_to_sprite_frames"
+type="SpriteFrames"
+uid="uid://d27jy82j16vhc"
+path="res://.godot/imported/idle outline.gif-8f6dca5aae99b2c79d168b0266b01a63.tres"
+
+[deps]
+
+source_file="res://assets/Jungle Pack/Character with outline/sprites/idle outline.gif"
+dest_files=["res://.godot/imported/idle outline.gif-8f6dca5aae99b2c79d168b0266b01a63.tres"]
+
+[params]
+
+frames_per_second=30
