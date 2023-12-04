@@ -11,7 +11,7 @@ func _ready():
 	elif FileAccess.file_exists("users://settings.dat"):
 		print("Settings file exists, using it.")
 		_settings = str_to_var(savefile.get_as_text())
-		typeof(_settings) == TYPE_DICTIONARY
+		typeof(_settings) = TYPE_DICTIONARY
 
 func save_settings():
 	print("save_settings function called")

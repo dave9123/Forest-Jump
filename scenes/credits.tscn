@@ -36,6 +36,7 @@ offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
 text = "Jungle Pack by Jesse M https://twitter.com/Jsf23Art
+Magic Cliffs by Luis Zono http://www.ansimuz.com
 Made with Godot Engine https://godotengine.org/"
 
 [node name="ReturnButton_CreditsScreen" type="Button" parent="."]
