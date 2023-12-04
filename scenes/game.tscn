@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://dwad67k7lw743"]
+[gd_scene load_steps=5 format=3 uid="uid://dwad67k7lw743"]
 
 [ext_resource type="Texture2D" uid="uid://cui7hgnvq3q5c" path="res://assets/jungle tileset/jungle tileset.png" id="1_7jrhe"]
+[ext_resource type="PackedScene" uid="uid://ql30kuj61kys" path="res://scenes/player.tscn" id="2_suxxy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k8fdo"]
 texture = ExtResource("1_7jrhe")
@@ -356,3 +357,5 @@ layer_0/tile_data = PackedInt32Array(0, 262144, 2, 1, 327680, 2, 2, 327680, 2, 3
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -512)
 anchor_mode = 0
+
+[node name="CharacterBody2D" parent="Camera2D" instance=ExtResource("2_suxxy")]
