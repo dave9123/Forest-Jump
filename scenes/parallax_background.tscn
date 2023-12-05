@@ -1,12 +1,12 @@
 [gd_scene load_steps=6 format=3 uid="uid://dwafhy4xp03wk"]
 
-[ext_resource type="Texture2D" uid="uid://ibff5nvog1dy" path="res://assets/Jungle Pack/parallax background/plx-1.png" id="1_atn8j"]
-[ext_resource type="Texture2D" uid="uid://d1y0lw3qtoxpd" path="res://assets/Jungle Pack/parallax background/plx-2.png" id="2_rk0ua"]
-[ext_resource type="Texture2D" uid="uid://bodllwuv0p1k3" path="res://assets/Jungle Pack/parallax background/plx-3.png" id="3_lrj1b"]
-[ext_resource type="Texture2D" uid="uid://n8qm4p3dre4l" path="res://assets/Jungle Pack/parallax background/plx-4.png" id="4_qvxsp"]
-[ext_resource type="Texture2D" uid="uid://ck5ofak72mln0" path="res://assets/Jungle Pack/parallax background/plx-5.png" id="5_gotgq"]
+[ext_resource type="Texture2D" uid="uid://ibff5nvog1dy" path="res://assets/Jungle Pack/parallax background/plx-1.png" id="1_r8wy5"]
+[ext_resource type="Texture2D" uid="uid://d1y0lw3qtoxpd" path="res://assets/Jungle Pack/parallax background/plx-2.png" id="2_04euk"]
+[ext_resource type="Texture2D" uid="uid://bodllwuv0p1k3" path="res://assets/Jungle Pack/parallax background/plx-3.png" id="3_jfr65"]
+[ext_resource type="Texture2D" uid="uid://n8qm4p3dre4l" path="res://assets/Jungle Pack/parallax background/plx-4.png" id="4_bpfyj"]
+[ext_resource type="Texture2D" uid="uid://ck5ofak72mln0" path="res://assets/Jungle Pack/parallax background/plx-5.png" id="5_o01pw"]
 
-[node name="parralax_background" type="ParallaxBackground"]
+[node name="parallax_background" type="ParallaxBackground"]
 
 [node name="ParallaxLayer_1" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
@@ -14,36 +14,41 @@ motion_scale = Vector2(0, 0)
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_1"]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("1_atn8j")
+texture = ExtResource("1_r8wy5")
+metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_2" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0.1, 0)
+motion_scale = Vector2(0, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_2"]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("2_rk0ua")
+texture = ExtResource("2_04euk")
+metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_3" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0.3, 0)
+motion_scale = Vector2(0, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_3"]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("3_lrj1b")
+texture = ExtResource("3_jfr65")
+metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_4" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0.6, 0)
+motion_scale = Vector2(0, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_4"]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("4_qvxsp")
+texture = ExtResource("4_bpfyj")
+metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_5" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0.8, 0)
+motion_scale = Vector2(0, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_5"]
 offset_right = 40.0
 offset_bottom = 40.0
-texture = ExtResource("5_gotgq")
+texture = ExtResource("5_o01pw")
+metadata/_edit_use_anchors_ = true

@@ -211,5 +211,6 @@ shape = SubResource("RectangleShape2D_vncxw")
 metadata/_edit_group_ = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2, 2)
+offset = Vector2(0, -36)
+zoom = Vector2(2.25, 2.25)
 position_smoothing_enabled = true

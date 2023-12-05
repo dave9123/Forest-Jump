@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dylagvwjw27tn"]
+[gd_scene load_steps=3 format=3 uid="uid://dylagvwjw27tn"]
 
 [ext_resource type="Script" path="res://scripts/settings.gd" id="1_2dud4"]
+[ext_resource type="AudioStream" uid="uid://1sdp7317uuod" path="res://assets/Magic Cliffs/magic cliffs music/magic cliffs.ogg" id="2_sjgtv"]
 
 [node name="SettingsScreen" type="Control"]
 layout_mode = 3
@@ -10,6 +11,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2dud4")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(696, 304)
+stream = ExtResource("2_sjgtv")
 
 [node name="ReturnButton_SettingsScreen" type="Button" parent="."]
 layout_mode = 0
@@ -46,34 +51,20 @@ offset_bottom = 12.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="FullScreenLabel_SettingsScreen" type="Label" parent="."]
+[node name="MusicVolumeLabel_SettingsScreen" type="Label" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -42.0
-offset_top = 18.0
-offset_right = 42.0
-offset_bottom = 44.0
+offset_left = -56.0
+offset_top = 16.0
+offset_right = 53.0
+offset_bottom = 42.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Full Screen"
-
-[node name="FullScreenCheckbox_SettingsScreen" type="CheckBox" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = 46.0
-offset_top = 19.0
-offset_right = 70.0
-offset_bottom = 43.0
-grow_horizontal = 2
-grow_vertical = 2
+text = "Music Volume"
 
 [node name="FPSCounter_SettingsScreen" type="Label" parent="."]
 layout_mode = 1
@@ -87,6 +78,32 @@ offset_top = -23.0
 grow_horizontal = 0
 grow_vertical = 0
 
+[node name="MusicVolumeSlider_SettingsScreen" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 72.0
+offset_top = 24.0
+offset_right = 176.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+value = 100.0
+
+[node name="MusicVolumeTextBox_SettingsScreen" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 696.0
+offset_top = 304.0
+offset_right = 763.063
+offset_bottom = 335.0
+placeholder_text = "Volume"
+max_length = 3
+virtual_keyboard_type = 2
+
 [connection signal="pressed" from="ReturnButton_SettingsScreen" to="." method="_on_return_button_settings_screen_pressed"]
 [connection signal="toggled" from="VSyncCheckbox_SettingsScreen" to="." method="_on_v_sync_checkbox_settings_screen_toggled"]
-[connection signal="toggled" from="FullScreenCheckbox_SettingsScreen" to="." method="_on_full_screen_checkbox_settings_screen_toggled"]
+[connection signal="value_changed" from="MusicVolumeSlider_SettingsScreen" to="." method="_on_music_volume_slider_settings_screen_value_changed"]
+[connection signal="text_changed" from="MusicVolumeTextBox_SettingsScreen" to="." method="_on_music_volume_text_box_settings_screen_text_changed"]
