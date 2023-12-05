@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dwafhy4xp03wk"]
+
+[node name="parralax_background" type="ParallaxBackground"]
+
+[node name="ParallaxLayer_1" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer_2" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer_3" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer_4" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer_5" type="ParallaxLayer" parent="."]
