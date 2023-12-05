@@ -1,13 +1,13 @@
 [gd_scene load_steps=5 format=3 uid="uid://ql30kuj61kys"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ndnp2"]
-[ext_resource type="Texture2D" uid="uid://1kks53vsg1l5" path="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/idle outline.png" id="2_4tih7"]
+[ext_resource type="Texture2D" uid="uid://drrcwqy8hk381" path="res://assets/Jungle Pack/Character/sprites/landing.png" id="2_x507v"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c2vww"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_4tih7")
+"texture": ExtResource("2_x507v")
 }],
 "loop": true,
 "name": &"idle_outline",
@@ -15,7 +15,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vncxw"]
-size = Vector2(22, 38)
+size = Vector2(16, 38)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_ndnp2")
