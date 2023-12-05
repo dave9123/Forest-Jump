@@ -31,11 +31,11 @@ func _physics_process(delta):
 	
 	if is_on_floor():
 		if direction != 0:
-			pass#$AnimatedSprite2D.play("run")
+			$AnimatedSprite2D.play("run_outline")
 		else:
 			$AnimatedSprite2D.play("idle_outline")
 	else:
 		if velocity.y > 0:
-			pass#$AnimatedSprite2D.play("fall")
+			$AnimatedSprite2D.play("landing_outline")
 		else:
-			pass#$AnimatedSprite2D.play("jump")
+			$AnimatedSprite2D.play("jump_outline")

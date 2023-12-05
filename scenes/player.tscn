@@ -1,7 +1,11 @@
-[gd_scene load_steps=17 format=3 uid="uid://ql30kuj61kys"]
+[gd_scene load_steps=31 format=3 uid="uid://ql30kuj61kys"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ndnp2"]
 [ext_resource type="Texture2D" uid="uid://p46nbkj3mbe6" path="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/idle outline.png" id="2_jv3q0"]
+[ext_resource type="Texture2D" uid="uid://b57q01ycdxea3" path="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/run outline.png" id="3_egdpb"]
+[ext_resource type="Texture2D" uid="uid://crlvvqgptfrmh" path="res://assets/Jungle Pack/Character with outline/sprites/jump outline.png" id="3_lget4"]
+[ext_resource type="Texture2D" uid="uid://bh6p27o7tbuyt" path="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/mid air outline.png" id="3_ryv46"]
+[ext_resource type="Texture2D" uid="uid://pgr25pttob53" path="res://assets/Jungle Pack/Character with outline/sprites/landing outline.png" id="4_qwmg0"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bw4ho"]
 atlas = ExtResource("2_jv3q0")
@@ -51,6 +55,46 @@ region = Rect2(124, 45, 31, 45)
 atlas = ExtResource("2_jv3q0")
 region = Rect2(155, 45, 31, 45)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_v2q2p"]
+atlas = ExtResource("3_ryv46")
+region = Rect2(0, 0, 32, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_62vfn"]
+atlas = ExtResource("3_ryv46")
+region = Rect2(0, 47, 32, 47)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jnofg"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(0, 0, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xikt"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(33, 0, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wc3vr"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(66, 0, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_roium"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(99, 0, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_40rlt"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(0, 44, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yhmp1"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(33, 44, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ftdp8"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(66, 44, 33, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kt5wg"]
+atlas = ExtResource("3_egdpb")
+region = Rect2(99, 44, 33, 44)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_c2vww"]
 animations = [{
 "frames": [{
@@ -93,6 +137,62 @@ animations = [{
 "loop": true,
 "name": &"idle_outline",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_lget4")
+}],
+"loop": true,
+"name": &"jump_outline",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_qwmg0")
+}],
+"loop": true,
+"name": &"landing_outline",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v2q2p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_62vfn")
+}],
+"loop": true,
+"name": &"mid_air_outline",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_jnofg")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_4xikt")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_wc3vr")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_roium")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_40rlt")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_yhmp1")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_ftdp8")
+}, {
+"duration": 0.5,
+"texture": SubResource("AtlasTexture_kt5wg")
+}],
+"loop": true,
+"name": &"run_outline",
+"speed": 5.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vncxw"]
@@ -103,7 +203,8 @@ script = ExtResource("1_ndnp2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_c2vww")
-animation = &"idle_outline"
+animation = &"landing_outline"
+frame_progress = 0.48701
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_vncxw")
