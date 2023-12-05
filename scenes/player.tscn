@@ -1,13 +1,94 @@
-[gd_scene load_steps=5 format=3 uid="uid://ql30kuj61kys"]
+[gd_scene load_steps=17 format=3 uid="uid://ql30kuj61kys"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_ndnp2"]
-[ext_resource type="Texture2D" uid="uid://drrcwqy8hk381" path="res://assets/Jungle Pack/Character/sprites/landing.png" id="2_x507v"]
+[ext_resource type="Texture2D" uid="uid://p46nbkj3mbe6" path="res://assets/Jungle Pack/Character with outline/sprites/spritesheets/idle outline.png" id="2_jv3q0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bw4ho"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(0, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wl5hr"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(31, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5mix"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(62, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yubev"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(93, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_68xym"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(124, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcbtc"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(155, 0, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfpu6"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(0, 45, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2x6te"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(31, 45, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a6hh4"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(62, 45, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jvcse"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(93, 45, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fhvow"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(124, 45, 31, 45)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8uc52"]
+atlas = ExtResource("2_jv3q0")
+region = Rect2(155, 45, 31, 45)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_c2vww"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_x507v")
+"texture": SubResource("AtlasTexture_bw4ho")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wl5hr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n5mix")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yubev")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_68xym")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcbtc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nfpu6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2x6te")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a6hh4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jvcse")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fhvow")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8uc52")
 }],
 "loop": true,
 "name": &"idle_outline",
@@ -15,7 +96,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vncxw"]
-size = Vector2(16, 38)
+size = Vector2(10, 38)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_ndnp2")
