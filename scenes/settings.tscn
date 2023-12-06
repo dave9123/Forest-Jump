@@ -46,7 +46,6 @@ offset_right = 48.0
 offset_bottom = 14.0
 grow_horizontal = 2
 grow_vertical = 2
-value = 100.0
 
 [node name="MusicVolumeTextBox_SettingsScreen" type="LineEdit" parent="."]
 layout_mode = 1

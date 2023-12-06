@@ -5,4 +5,4 @@ func _ready():
 	pass
 
 func _process(delta):
-	pass
+	print($CharacterBody2D.position)

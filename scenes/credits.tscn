@@ -30,16 +30,18 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -200.0
-offset_top = -20.0
-offset_right = 210.0
-offset_bottom = 69.0
+offset_left = -296.0
+offset_top = -44.0
+offset_right = 296.0
+offset_bottom = 57.0
 grow_horizontal = 2
 grow_vertical = 2
 bbcode_enabled = true
 text = "Jungle Pack by Jesse M [url=https://twitter.com/Jsf23Art]https://twitter.com/Jsf23Art[/url]
 Magic Cliffs by Luis Zono [url=http://www.ansimuz.com]http://www.ansimuz.com[/url]
+Forest Background in Pixel Art by saukgp [url=https://itch.io/profile/saurabhkgp]https://itch.io/profile/saurabhkgp[/url]
 Made with Godot Engine [url=https://godotengine.org/]https://godotengine.org/[/url]"
+scroll_active = false
 
 [node name="ReturnButton_CreditsScreen" type="Button" parent="."]
 layout_mode = 0

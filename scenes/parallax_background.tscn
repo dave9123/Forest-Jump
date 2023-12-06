@@ -7,48 +7,95 @@
 [ext_resource type="Texture2D" uid="uid://ck5ofak72mln0" path="res://assets/Jungle Pack/parallax background/plx-5.png" id="5_o01pw"]
 
 [node name="parallax_background" type="ParallaxBackground"]
+scale = Vector2(0.745, 0.745)
+transform = Transform2D(0.745, 0, 0, 0.745, 0, 0)
 
 [node name="ParallaxLayer_1" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(288, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_1"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -108.0
+offset_right = 192.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("1_r8wy5")
-metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_2" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(288, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_2"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -108.0
+offset_right = 192.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_04euk")
-metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_3" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(288, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_3"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -108.0
+offset_right = 192.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("3_jfr65")
-metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_4" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(288, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_4"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -108.0
+offset_right = 192.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("4_bpfyj")
-metadata/_edit_use_anchors_ = true
 
 [node name="ParallaxLayer_5" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(288, 0)
 
 [node name="TextureRect" type="TextureRect" parent="ParallaxLayer_5"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -192.0
+offset_top = -108.0
+offset_right = 192.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("5_o01pw")
-metadata/_edit_use_anchors_ = true
