@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://dwad67k7lw743"]
+[gd_scene load_steps=11 format=3 uid="uid://dwad67k7lw743"]
 
 [ext_resource type="Script" path="res://game.gd" id="1_2we0u"]
 [ext_resource type="Texture2D" uid="uid://cui7hgnvq3q5c" path="res://assets/Jungle Pack/jungle tileset/jungle tileset.png" id="1_7jrhe"]
 [ext_resource type="Texture2D" uid="uid://cykhnvqdblvmh" path="res://assets/Magic Cliffs/Environment/PNG/tileset.png" id="2_8glwv"]
 [ext_resource type="PackedScene" uid="uid://ql30kuj61kys" path="res://scenes/player.tscn" id="2_suxxy"]
 [ext_resource type="PackedScene" uid="uid://buxbsd5524tmv" path="res://scenes/audioplayer.tscn" id="5_68a4p"]
+[ext_resource type="PackedScene" uid="uid://dwafhy4xp03wk" path="res://scenes/parallax_background.tscn" id="6_2w117"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_k8fdo"]
 texture = ExtResource("1_7jrhe")
@@ -2457,6 +2458,8 @@ layer_0/tile_data = PackedInt32Array(0, 262144, 2, 1, 327680, 2, 2, 327680, 2, 3
 position = Vector2(16, -24)
 
 [node name="audioplayer" parent="." instance=ExtResource("5_68a4p")]
+
+[node name="parallax_background" parent="." instance=ExtResource("6_2w117")]
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(176, 256)
