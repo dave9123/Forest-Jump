@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bo8j4bf144uob"]
+[gd_scene load_steps=3 format=3 uid="uid://bo8j4bf144uob"]
 
 [ext_resource type="Script" path="res://scripts/credits.gd" id="1_qi7i8"]
+[ext_resource type="PackedScene" uid="uid://buxbsd5524tmv" path="res://scenes/audioplayer.tscn" id="2_bpukv"]
 
 [node name="CreditsScreen" type="Control"]
 layout_mode = 3
@@ -22,22 +23,23 @@ offset_bottom = 23.0
 grow_horizontal = 2
 text = "Credits"
 
-[node name="CreditsList_CreditsScreen" type="Label" parent="."]
+[node name="CreditsList_CreditsScreen" type="RichTextLabel" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -20.0
-offset_top = -11.5
-offset_right = 20.0
-offset_bottom = 11.5
+offset_left = -200.0
+offset_top = -20.0
+offset_right = 210.0
+offset_bottom = 69.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "Jungle Pack by Jesse M https://twitter.com/Jsf23Art
-Magic Cliffs by Luis Zono http://www.ansimuz.com
-Made with Godot Engine https://godotengine.org/"
+bbcode_enabled = true
+text = "Jungle Pack by Jesse M [url=https://twitter.com/Jsf23Art]https://twitter.com/Jsf23Art[/url]
+Magic Cliffs by Luis Zono [url=http://www.ansimuz.com]http://www.ansimuz.com[/url]
+Made with Godot Engine [url=https://godotengine.org/]https://godotengine.org/[/url]"
 
 [node name="ReturnButton_CreditsScreen" type="Button" parent="."]
 layout_mode = 0
@@ -56,5 +58,7 @@ offset_left = -40.0
 offset_top = -23.0
 grow_horizontal = 0
 grow_vertical = 0
+
+[node name="audioplayer" parent="." instance=ExtResource("2_bpukv")]
 
 [connection signal="pressed" from="ReturnButton_CreditsScreen" to="." method="_on_return_button_credits_screen_pressed"]

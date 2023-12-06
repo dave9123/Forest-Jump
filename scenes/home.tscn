@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://crgdxs2v1e67b"]
+[gd_scene load_steps=3 format=3 uid="uid://crgdxs2v1e67b"]
 
 [ext_resource type="Script" path="res://scripts/home.gd" id="1_rreuw"]
+[ext_resource type="PackedScene" uid="uid://buxbsd5524tmv" path="res://scenes/audioplayer.tscn" id="2_jelcf"]
 
 [node name="HomeScreen" type="Control"]
 layout_mode = 3
@@ -79,6 +80,8 @@ offset_left = -40.0
 offset_top = -23.0
 grow_horizontal = 0
 grow_vertical = 0
+
+[node name="audioplayer" parent="." instance=ExtResource("2_jelcf")]
 
 [connection signal="pressed" from="StartButton_HomeScreen" to="." method="_on_start_button_home_screen_pressed"]
 [connection signal="pressed" from="SettingsButton_HomeScreen" to="." method="_on_settings_button_home_screen_pressed"]
