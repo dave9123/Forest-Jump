@@ -7,6 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://ck5ofak72mln0" path="res://assets/Jungle Pack/parallax background/plx-5.png" id="5_o01pw"]
 
 [node name="parallax_background" type="ParallaxBackground"]
+offset = Vector2(192, -24)
+transform = Transform2D(1, 0, 0, 1, 192, -24)
 
 [node name="ParallaxLayer_1" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0, 0)

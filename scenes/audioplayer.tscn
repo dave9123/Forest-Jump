@@ -1,9 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://buxbsd5524tmv"]
 
 [ext_resource type="AudioStream" uid="uid://1sdp7317uuod" path="res://assets/Magic Cliffs/magic cliffs music/magic cliffs.ogg" id="1_jkkd7"]
-[ext_resource type="Script" path="res://scenes/audioplayer.gd" id="2_kdar6"]
+[ext_resource type="Script" path="res://scripts/audioplayer.gd" id="2_bvnyt"]
 
 [node name="audioplayer" type="AudioStreamPlayer"]
 stream = ExtResource("1_jkkd7")
 autoplay = true
-script = ExtResource("2_kdar6")
+script = ExtResource("2_bvnyt")

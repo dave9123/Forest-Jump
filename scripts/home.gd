@@ -1,14 +1,15 @@
 extends Control
 
-var _settings = {}
-const forceSetSettings = true
+#var _settings = {}
+#const forceSetSettings = true
 
 func _ready():
-	print("[!] Force set settings is curently set to ", forceSetSettings, "!")
-	if not FileAccess.file_exists("user://settings.dat"):
-		var savefile = FileAccess.open("user://settings.dat", FileAccess.WRITE_READ)
-		var _settings := {play_music = true, music_volume = 100}
-		savefile.store_var(_settings)		
+	pass
+	#print("[!] Force set settings is curently set to ", forceSetSettings, "!")
+	#if not FileAccess.file_exists("user://settings.dat"):
+	#	var savefile = FileAccess.open("user://settings.dat", FileAccess.WRITE_READ)
+	#	var _settings := {play_music = true, music_volume = 100}
+	#	savefile.store_var(_settings)		
 
 func _process(_delta):
 	$FPSCounter_HomeScreen.text = str(Engine.get_frames_per_second())

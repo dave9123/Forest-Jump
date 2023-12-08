@@ -39,7 +39,7 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 0
 text = "Start"
 
-[node name="SettingsButton_HomeScreen" type="Button" parent="."]
+[node name="ControlsButton_HomeScreen" type="Button" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -52,7 +52,7 @@ offset_right = 35.0
 offset_bottom = 15.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "Settings"
+text = "Controls"
 
 [node name="CreditsButton_HomeScreen" type="Button" parent="."]
 layout_mode = 1
@@ -84,5 +84,5 @@ grow_vertical = 0
 [node name="audioplayer" parent="." instance=ExtResource("2_jelcf")]
 
 [connection signal="pressed" from="StartButton_HomeScreen" to="." method="_on_start_button_home_screen_pressed"]
-[connection signal="pressed" from="SettingsButton_HomeScreen" to="." method="_on_settings_button_home_screen_pressed"]
+[connection signal="pressed" from="ControlsButton_HomeScreen" to="." method="_on_settings_button_home_screen_pressed"]
 [connection signal="pressed" from="CreditsButton_HomeScreen" to="." method="_on_credits_button_home_screen_pressed"]
