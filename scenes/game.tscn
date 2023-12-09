@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://dwad67k7lw743"]
 
-[ext_resource type="Script" path="res://game.gd" id="1_2we0u"]
+[ext_resource type="Script" path="res://scripts/game.gd" id="1_1fw7h"]
 [ext_resource type="Texture2D" uid="uid://cui7hgnvq3q5c" path="res://assets/Jungle Pack/jungle tileset/jungle tileset.png" id="1_7jrhe"]
 [ext_resource type="Texture2D" uid="uid://cykhnvqdblvmh" path="res://assets/Magic Cliffs/Environment/PNG/tileset.png" id="2_8glwv"]
 [ext_resource type="PackedScene" uid="uid://ql30kuj61kys" path="res://scenes/player.tscn" id="2_suxxy"]
@@ -2446,7 +2446,7 @@ sources/1 = SubResource("TileSetAtlasSource_vwytj")
 normal = Vector2(0, -9.295)
 
 [node name="GameScreen" type="Node2D"]
-script = ExtResource("1_2we0u")
+script = ExtResource("1_1fw7h")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_4afcl")

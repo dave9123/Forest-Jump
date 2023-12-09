@@ -53,7 +53,7 @@ func _on_music_volume_text_box_settings_screen_text_changed(value):
 		print("[!] Invalid value!")
 		$MusicVolumeTextBox_SettingsScreen.text = str(100)
 		$MusicVolumeSlider_SettingsScreen.value = int(100)
-		_settings.music_volume = int(0)
+		_settings.music_volume = int(value)
 	else:
 		_settings.music_volume = int(value)
 		$MusicVolumeSlider_SettingsScreen.value = int(value)
