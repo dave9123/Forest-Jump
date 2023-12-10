@@ -4,12 +4,10 @@ extends Control
 #const forceSetSettings = true
 
 func _ready():
-	pass
-	#print("[!] Force set settings is curently set to ", forceSetSettings, "!")
-	#if not FileAccess.file_exists("user://settings.dat"):
-	#	var savefile = FileAccess.open("user://settings.dat", FileAccess.WRITE_READ)
-	#	var _settings := {play_music = true, music_volume = 100}
-	#	savefile.store_var(_settings)		
+	var savefile = FileAccess.open("user://settings.dat", FileAccess.READ)
+	var _settings = savefile.get_var()
+	$audioplayer.volume_db = int(20*log(_settings.music_volume/100))
+	savefile.close()
 
 func _process(_delta):
 	$FPSCounter_HomeScreen.text = str(Engine.get_frames_per_second())

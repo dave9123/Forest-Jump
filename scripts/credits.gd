@@ -1,9 +1,10 @@
 extends Control
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	var savefile = FileAccess.open("user://settings.dat", FileAccess.READ)
+	var _settings = savefile.get_var()
+	$audioplayer.volume_db = int(20*log(_settings.music_volume/100))
+	savefile.close()
 
 func _process(_delta):
 	$FPSCounter_CreditsScreen.text = str(Engine.get_frames_per_second())
