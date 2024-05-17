@@ -3,12 +3,6 @@ extends Control
 #var _settings = {}
 #const forceSetSettings = true
 
-func _ready():
-	var savefile = FileAccess.open("user://settings.dat", FileAccess.READ)
-	var _settings = savefile.get_var()
-	$audioplayer.volume_db = int(20*log(_settings.music_volume/100))
-	savefile.close()
-
 func _process(_delta):
 	$FPSCounter_HomeScreen.text = str(Engine.get_frames_per_second())
 

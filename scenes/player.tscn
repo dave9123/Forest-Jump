@@ -196,17 +196,17 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vncxw"]
-size = Vector2(10, 38)
+size = Vector2(10, 36)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_ndnp2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_c2vww")
-animation = &"landing_outline"
-frame_progress = 0.48701
+animation = &"idle_outline"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_vncxw")
 metadata/_edit_group_ = true
 
